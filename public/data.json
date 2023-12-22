@@ -1,0 +1,19 @@
+{
+    "structure": [{
+        "id": "first1",
+        "type": "section",
+        "cols": 3,
+        "style": ["padding: 40px", "background:#ccc"],
+        "children": {
+            "element": [
+                {
+                    "type": "text",
+                    "content": "<div>Описание текста</div>"
+                },
+                {},
+                {}
+            ]
+          
+        }
+    }]
+}

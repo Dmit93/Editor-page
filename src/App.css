@@ -1,0 +1,34 @@
+.main {
+  width: 1300px;
+  padding: 40px;
+  background: #c5c5c5;
+}
+
+.section-edpg {
+  display: grid;
+}
+
+.add-section {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #888888;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  text-align: center;
+}
+
+.list-component {
+  display: flex;
+}
+
+.list-component__element {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #c5c5c5;
+  margin-right: 10px;
+}
